@@ -1,0 +1,31 @@
+.content-card {
+    padding: 10px;
+    border-radius: 20px;
+    min-height: 100px;
+    background-color: #ECF3FC;
+    transition: all .2s cubic-bezier(0, 0, 0.26, 0.96);
+    box-shadow: 0 2px 43px -4px rgba(0,0,0,.19);
+}
+
+.content-card:hover {
+    background-color: #4E5D74;
+    color: white;
+    transform: translateY(2px);
+    box-shadow: 0 2px 5px rgba(0,0,0,.1), 0 1px 2px rgba(0,0,0,.05);
+}
+
+.content-card p {
+    margin: auto;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.content-card strong  {
+    display: block;
+    margin: 0;
+    margin-bottom: 3px;
+}
+
+.comment-action a:hover {
+    color: white;
+}
